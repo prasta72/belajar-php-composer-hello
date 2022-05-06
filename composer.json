@@ -1,0 +1,19 @@
+{
+    "name": "prasta/belajar-composer-liblary",
+    "description": "belajar upload ke ropo boss",
+    "type": "library",
+    "authors": [
+        {
+            "name": "prasta72",
+            "email": "prasta72@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prastadev\\" : "src/"
+        }
+    },
+    "require": {
+        "php" : "8"
+    }
+}
